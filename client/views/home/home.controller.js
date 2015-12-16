@@ -6,8 +6,6 @@ angular
 
     var vm = this;
 
-    angular.extend(vm, {
-      name: 'HomeCtrl'
-    });
+    vm.name = 'Home Controller';
 
   });

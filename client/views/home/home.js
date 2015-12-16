@@ -4,9 +4,9 @@ angular
   .module('projectSetup')
   .config(function ($stateProvider) {
     $stateProvider
-        .state('root', {
+        .state('home', {
             url: '/',
-            templateUrl: 'client/views/home.html',
+            templateUrl: 'views/home/home.html',
             controller: 'HomeCtrl',
             controllerAs: 'vm' 
         });

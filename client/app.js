@@ -6,10 +6,12 @@ angular.module('projectSetup', [
   'ngSanitize',
   'ngAnimate'
 ])
-  .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+  .config(function ($urlRouterProvider, $locationProvider) {
 
-    $urlRouterProvider.otherwise('/');
+    $urlRouterProvider
+    	.otherwise('/');
 
-    $locationProvider.html5Mode(true);
+    $locationProvider
+    	.html5Mode(true);
 
   });
